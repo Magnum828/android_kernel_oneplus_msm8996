@@ -54,7 +54,7 @@ while [ $# != 0 ]; do
 	shift
 done
 
-[ "$TARGET" ] || TARGET=oneplus
+[ "$TARGET" ] || TARGET=oneplus3
 
 DEFCONFIG=${TARGET}_defconfig
 
